@@ -54,6 +54,7 @@ Curated resources for [Grok](https://x.ai/grok), [Grok Bot](https://x.ai/news/gr
 - [Agent Island](https://github.com/tristan666666/agent-island) — Cross-platform menu-bar companion for monitoring Grok, Claude Code, and Cursor local agent sessions.
 - [Forge Design](https://github.com/forge-ui/forge-design-extension) — Chrome extension for selecting live DOM components and modifying UI locally with Grok.
 - [HyperGrok Trading Desk](https://github.com/galleonlabs/hypergrok-trading-desk) — Hyperliquid trading agent toolkit powered by Grok skills and subagents.
+- [MulmoTerminal](https://github.com/receptron/mulmoterminal) — Browser grid that runs several agent sessions side by side, Grok among them. Each cell is a real PTY with a colour-coded status and its own git worktree; tmux-backed, so closing the tab does not close the work.
 
 ## CLI
 
