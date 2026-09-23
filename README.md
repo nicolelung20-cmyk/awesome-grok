@@ -39,14 +39,14 @@ Curated resources for [Grok](https://x.ai/grok), [Grok Bot](https://x.ai/news/gr
 ## SDKs and Integrations
 
 - [xAI Python SDK](https://github.com/xai-org/xai-sdk-python) — Official gRPC/REST Python client with native async support.
-- [@ai-sdk/xai](https://ai-sdk.dev/providers/ai-sdk-providers/xai) — Vercel AI SDK integration for Grok 4.6 and streaming agents.
+- [@ai-sdk/xai](https://ai-sdk.dev/providers/ai-sdk-providers/xai) — Vercel AI SDK provider for Grok models, Imagine image/video generation, and streaming agents.
 - [LangChain xAI Provider](https://docs.langchain.com/oss/python/integrations/providers/xai) — Chat, structured outputs, and memory integration.
 - [xai_grok_sdk](https://github.com/moesmufti/xai_grok_sdk) — Lightweight third-party Python wrapper with minimal dependencies (no longer actively maintained).
 - [Hugging Face: xAI](https://huggingface.co/xai-org) — Hosted open artifacts and checkpoints (Grok-1).
 
 ## Apps and Agents
 
-- [Cursor](https://www.cursor.com/) — AI-first code editor featuring native Grok 4.6 integration and SpaceX Colossus GPU compute backends.
+- [Cursor](https://www.cursor.com/) — AI-first code editor featuring native Grok 4.7 integration and SpaceX Colossus GPU compute backends.
 - [Grok Bot](https://x.ai/news/grok-bot-more-plans) — Official SpaceXAI autonomous agent teammate for work automation and X API actions.
 - [SuperGrok Mac](https://supergrokmac.com) — Native macOS desktop client for Grok coding agents with local folder access, approval gates, and session management.
 - [Agent Teams AI](https://github.com/777genius/agent-teams-ai) — Open-source desktop app for orchestrating autonomous coding-agent teams using Grok.
