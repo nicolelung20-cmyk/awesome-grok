@@ -72,7 +72,7 @@ Curated resources for [Grok](https://x.ai/grok), [Grok Bot](https://x.ai/news/gr
 - [Introducing Grok 4.7](https://x.ai/news/grok-4-7) — Latest release: SpaceXAI's most powerful model for coding and knowledge work, with improved self-verification and long-task handling.
 - [Introducing Grok 4.6](https://x.ai/news/grok-4-6) — Long-running agents and more ambitious interactive and visual work, building on Grok 4.5.
 - [Grok 4.5 Announcement](https://x.ai/news/grok-4-5) — Deep dive into Grok 4.5 architecture for coding, agentic workflows, and reasoning.
-- [Grok 4.1 Fast & Agent Tools](https://x.ai/news/grok-4-1-fast) — Factuality improvements and low-latency tool execution.
+- [Grok 4.1 Fast & Agent Tools](https://x.ai/news/grok-4-1-fast) — Tool-calling model with a 2M-token context window, plus the Agent Tools API for server-side web search, code execution, and document retrieval.
 - [Grok 4 Announcement](https://x.ai/news/grok-4) — Original release details for the Grok 4 family.
 - [Wikipedia: Grok (chatbot)](https://en.wikipedia.org/wiki/Grok_%28chatbot%29) — Comprehensive background on development history and milestones.
 - [What's in Grok?](https://lifearchitect.ai/whats-in-grok/) — Independent model analysis and card by LifeArchitect.
