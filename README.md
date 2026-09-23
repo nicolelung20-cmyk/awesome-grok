@@ -23,7 +23,7 @@ Curated resources for [Grok](https://x.ai/grok), [Grok Bot](https://x.ai/news/gr
 - [SpaceXAI / xAI](https://x.ai/) — Official company site and platform announcements.
 - [Grok](https://x.ai/grok) — Official web product portal (Chat, Voice, DeepSearch, and Image Generation).
 - [API Console](https://console.x.ai/) — Key management, usage, billing, and playground.
-- [Developer Docs](https://docs.x.ai/) — Model specs (Grok 4.6, Grok 4.5), agentic tools, structured outputs, and API reference.
+- [Developer Docs](https://docs.x.ai/) — Model specs (Grok 4.7, Grok 4.6), agentic tools, structured outputs, and API reference.
 - [Grok-1 (Open Weights)](https://github.com/xai-org/grok-1) — 314B-parameter open-weights checkpoint and JAX implementation (Apache 2.0).
 - [xAI Python SDK](https://github.com/xai-org/xai-sdk-python) — Official synchronous and asynchronous client library ([PyPI](https://pypi.org/project/xai-sdk/)).
 - [iOS App](https://apps.apple.com/us/app/grok/id6670324846) — Official iOS app with DeepSearch and voice support.
@@ -32,21 +32,21 @@ Curated resources for [Grok](https://x.ai/grok), [Grok Bot](https://x.ai/news/gr
 
 ## Tutorials
 
-- [Hitchhiker's Guide to Grok](https://docs.x.ai/docs/tutorial) — Official step-by-step guide: API keys, basic chat, structured outputs, and vision.
-- [Grok 4.6 Agentic Workflows Quickstart](https://docs.x.ai/developers/grok-4-6) — Building autonomous subagent routines with Grok 4.6 tool calling.
-- [Getting Started with the Grok API](https://lablab.ai/t/xai-beginner-tutorial) — Beginner-friendly Google Colab walkthrough.
+- [Grok API Quickstart](https://docs.x.ai/developers/quickstart) — Official step-by-step guide: account setup, API keys, SDK install, first request, and image generation.
+- [Grok 4.7 Model Guide](https://docs.x.ai/developers/grok-4-7) — Model overview, 500k context, reasoning effort, pricing, and API usage for agentic workloads.
+- [Getting Started with the Grok API](https://lablab.ai/ai-tutorials/xai-beginner-tutorial) — Beginner-friendly Google Colab walkthrough.
 
 ## SDKs and Integrations
 
 - [xAI Python SDK](https://github.com/xai-org/xai-sdk-python) — Official gRPC/REST Python client with native async support.
-- [@ai-sdk/xai](https://sdk.vercel.ai/providers/ai-sdk-providers/xai) — Vercel AI SDK integration for Grok 4.6 and streaming agents.
-- [LangChain xAI Provider](https://python.langchain.com/docs/integrations/providers/xai/) — Chat, structured outputs, and memory integration.
-- [xai_grok_sdk](https://github.com/moesmufti/xai_grok_sdk) — Lightweight third-party Python wrapper with minimal dependencies.
-- [Hugging Face: xAI](https://huggingface.co/xai) — Hosted open artifacts and checkpoints (Grok-1).
+- [@ai-sdk/xai](https://ai-sdk.dev/providers/ai-sdk-providers/xai) — Vercel AI SDK provider for Grok models, Imagine image/video generation, and streaming agents.
+- [LangChain xAI Provider](https://docs.langchain.com/oss/python/integrations/providers/xai) — Chat, structured outputs, and memory integration.
+- [xai_grok_sdk](https://github.com/moesmufti/xai_grok_sdk) — Lightweight third-party Python wrapper with minimal dependencies (no longer actively maintained).
+- [Hugging Face: xAI](https://huggingface.co/xai-org) — Hosted open artifacts and checkpoints (Grok-1).
 
 ## Apps and Agents
 
-- [Cursor](https://www.cursor.com/) — AI-first code editor featuring native Grok 4.6 integration and SpaceX Colossus GPU compute backends.
+- [Cursor](https://www.cursor.com/) — AI-first code editor featuring native Grok 4.7 integration and SpaceX Colossus GPU compute backends.
 - [Grok Bot](https://x.ai/news/grok-bot-more-plans) — Official SpaceXAI autonomous agent teammate for work automation and X API actions.
 - [SuperGrok Mac](https://supergrokmac.com) — Native macOS desktop client for Grok coding agents with local folder access, approval gates, and session management.
 - [Agent Teams AI](https://github.com/777genius/agent-teams-ai) — Open-source desktop app for orchestrating autonomous coding-agent teams using Grok.
@@ -69,7 +69,8 @@ Curated resources for [Grok](https://x.ai/grok), [Grok Bot](https://x.ai/news/gr
 
 ## Reading & Research
 
-- [Introducing Grok 4.6](https://docs.x.ai/developers/grok-4-6) — Latest release highlights, 500k context window, and agentic reasoning benchmarks.
+- [Introducing Grok 4.7](https://x.ai/news/grok-4-7) — Latest release: SpaceXAI's most powerful model for coding and knowledge work, with improved self-verification and long-task handling.
+- [Introducing Grok 4.6](https://x.ai/news/grok-4-6) — Long-running agents and more ambitious interactive and visual work, building on Grok 4.5.
 - [Grok 4.5 Announcement](https://x.ai/news/grok-4-5) — Deep dive into Grok 4.5 architecture for coding, agentic workflows, and reasoning.
 - [Grok 4.1 Fast & Agent Tools](https://x.ai/news/grok-4-1-fast) — Factuality improvements and low-latency tool execution.
 - [Grok 4 Announcement](https://x.ai/news/grok-4) — Original release details for the Grok 4 family.
