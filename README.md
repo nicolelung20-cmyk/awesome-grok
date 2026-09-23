@@ -9,6 +9,7 @@ Curated resources for [Grok](https://x.ai/grok), [Grok Bot](https://x.ai/news/gr
 
 ## Contents
 
+- [Agent Cards](#agent-cards)
 - [Official](#official)
 - [Tutorials](#tutorials)
 - [SDKs and Integrations](#sdks-and-integrations)
@@ -17,6 +18,10 @@ Curated resources for [Grok](https://x.ai/grok), [Grok Bot](https://x.ai/news/gr
 - [Community](#community)
 - [Reading & Research](#reading--research)
 - [Contributing](#contributing)
+
+## Agent Cards
+
+Browse the Apps and Agents and CLI sections as a searchable card gallery in [`cards/`](cards/index.html) (serve it over HTTP, e.g. `python3 -m http.server`, then open `/cards/`). Card data lives in [`cards/agents.json`](cards/agents.json); when you add an agent to either section, add its card too and run `node scripts/validate-cards.mjs`.
 
 ## Official
 

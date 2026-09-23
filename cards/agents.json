@@ -1,0 +1,94 @@
+[
+  {
+    "name": "keke-agent",
+    "url": "https://github.com/milisp/keke-agent",
+    "category": "CLI",
+    "featured": true,
+    "description": "Ultra-lightweight (7 MB) terminal coding agent written in Rust with Grok subscription login, directory routing, and non-interactive CI execution.",
+    "tags": ["rust", "terminal", "ci"]
+  },
+  {
+    "name": "grok-build",
+    "url": "https://github.com/xai-org/grok-build",
+    "category": "CLI",
+    "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
+    "tags": ["official", "tui"]
+  },
+  {
+    "name": "grok-cli",
+    "url": "https://github.com/superagent-ai/grok-cli",
+    "category": "CLI",
+    "description": "Open-source terminal agent powered by Grok API.",
+    "tags": ["terminal", "open-source"]
+  },
+  {
+    "name": "x-cli / grok-one-shot",
+    "url": "https://github.com/x-cli-team/x-cli",
+    "category": "CLI",
+    "description": "Conversational coding CLI with multi-file refactoring and git orchestration.",
+    "tags": ["terminal", "git"]
+  },
+  {
+    "name": "Cursor",
+    "url": "https://www.cursor.com/",
+    "category": "Apps and Agents",
+    "description": "AI-first code editor featuring native Grok 4.6 integration and SpaceX Colossus GPU compute backends.",
+    "tags": ["editor"]
+  },
+  {
+    "name": "Grok Bot",
+    "url": "https://x.ai/news/grok-bot-more-plans",
+    "category": "Apps and Agents",
+    "description": "Official SpaceXAI autonomous agent teammate for work automation and X API actions.",
+    "tags": ["official", "automation"]
+  },
+  {
+    "name": "SuperGrok Mac",
+    "url": "https://supergrokmac.com",
+    "category": "Apps and Agents",
+    "description": "Native macOS desktop client for Grok coding agents with local folder access, approval gates, and session management.",
+    "tags": ["macos", "desktop"]
+  },
+  {
+    "name": "Agent Teams AI",
+    "url": "https://github.com/777genius/agent-teams-ai",
+    "category": "Apps and Agents",
+    "description": "Open-source desktop app for orchestrating autonomous coding-agent teams using Grok.",
+    "tags": ["desktop", "multi-agent"]
+  },
+  {
+    "name": "Aeon",
+    "url": "https://github.com/aeonfun/aeon",
+    "category": "Apps and Agents",
+    "description": "Unattended GitHub Actions agent loop utilizing Grok as an execution harness.",
+    "tags": ["github-actions", "ci"]
+  },
+  {
+    "name": "Agent Island",
+    "url": "https://github.com/tristan666666/agent-island",
+    "category": "Apps and Agents",
+    "description": "Cross-platform menu-bar companion for monitoring Grok, Claude Code, and Cursor local agent sessions.",
+    "tags": ["desktop", "monitoring"]
+  },
+  {
+    "name": "Forge Design",
+    "url": "https://github.com/forge-ui/forge-design-extension",
+    "category": "Apps and Agents",
+    "description": "Chrome extension for selecting live DOM components and modifying UI locally with Grok.",
+    "tags": ["browser", "ui"]
+  },
+  {
+    "name": "HyperGrok Trading Desk",
+    "url": "https://github.com/galleonlabs/hypergrok-trading-desk",
+    "category": "Apps and Agents",
+    "description": "Hyperliquid trading agent toolkit powered by Grok skills and subagents.",
+    "tags": ["trading", "multi-agent"]
+  },
+  {
+    "name": "MulmoTerminal",
+    "url": "https://github.com/receptron/mulmoterminal",
+    "category": "Apps and Agents",
+    "description": "Browser grid that runs several agent sessions side by side, each a real PTY with its own git worktree; tmux-backed.",
+    "tags": ["browser", "multi-agent", "tmux"]
+  }
+]
