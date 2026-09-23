@@ -51,7 +51,6 @@ Curated resources for [Grok](https://x.ai/grok), [Grok Bot](https://x.ai/news/gr
 - [SuperGrok Mac](https://supergrokmac.com) — Native macOS desktop client for Grok coding agents with local folder access, approval gates, and session management.
 - [Agent Teams AI](https://github.com/777genius/agent-teams-ai) — Open-source desktop app for orchestrating autonomous coding-agent teams using Grok.
 - [Aeon](https://github.com/aeonfun/aeon) — Unattended GitHub Actions agent loop utilizing Grok as an execution harness.
-- [Agent Island](https://github.com/tristan666666/agent-island) — Cross-platform menu-bar companion for monitoring Grok, Claude Code, and Cursor local agent sessions.
 - [Forge Design](https://github.com/forge-ui/forge-design-extension) — Chrome extension for selecting live DOM components and modifying UI locally with Grok.
 - [HyperGrok Trading Desk](https://github.com/galleonlabs/hypergrok-trading-desk) — Hyperliquid trading agent toolkit powered by Grok skills and subagents.
 - [MulmoTerminal](https://github.com/receptron/mulmoterminal) — Browser grid that runs several agent sessions side by side, Grok among them. Each cell is a real PTY with a colour-coded status and its own git worktree; tmux-backed, so closing the tab does not close the work.
