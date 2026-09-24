@@ -24,6 +24,7 @@ Curated resources for [Grok](https://x.ai/grok), [Grok Bot](https://x.ai/news/gr
 - [Grok](https://x.ai/grok) — Official web product portal (Chat, Voice, DeepSearch, and Image Generation).
 - [API Console](https://console.x.ai/) — Key management, usage, billing, and playground.
 - [Developer Docs](https://docs.x.ai/) — Model specs (Grok 4.7, Grok 4.6), agentic tools, structured outputs, and API reference.
+- [API Release Notes](https://docs.x.ai/developers/release-notes) — Changelog of new models, API features, and deprecations on the SpaceXAI platform.
 - [Grok-1 (Open Weights)](https://github.com/xai-org/grok-1) — 314B-parameter open-weights checkpoint and JAX implementation (Apache 2.0).
 - [xAI Python SDK](https://github.com/xai-org/xai-sdk-python) — Official synchronous and asynchronous client library ([PyPI](https://pypi.org/project/xai-sdk/)).
 - [iOS App](https://apps.apple.com/us/app/grok/id6670324846) — Official iOS app with DeepSearch and voice support.
