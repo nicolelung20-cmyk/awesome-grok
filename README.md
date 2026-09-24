@@ -49,6 +49,7 @@ Curated resources for [Grok](https://x.ai/grok), [Grok Bot](https://x.ai/news/gr
 - [Cursor](https://www.cursor.com/) — AI-first code editor featuring native Grok 4.7 integration and SpaceX Colossus GPU compute backends.
 - [Grok Bot](https://x.ai/news/grok-bot-more-plans) — Official SpaceXAI autonomous agent teammate for work automation and X API actions.
 - [SuperGrok Mac](https://supergrokmac.com) — Native macOS desktop client for Grok coding agents with local folder access, approval gates, and session management.
+- [Hermes Agent](https://github.com/NousResearch/hermes-agent) — Nous Research's self-improving open-source agent with a native xAI provider (API key or SuperGrok OAuth), persistent memory, auto-created skills, cron automations, and Telegram/Discord/Slack gateways.
 - [Agent Teams AI](https://github.com/777genius/agent-teams-ai) — Open-source desktop app for orchestrating autonomous coding-agent teams using Grok.
 - [Aeon](https://github.com/aeonfun/aeon) — Unattended GitHub Actions agent loop utilizing Grok as an execution harness.
 - [Forge Design](https://github.com/forge-ui/forge-design-extension) — Chrome extension for selecting live DOM components and modifying UI locally with Grok.
