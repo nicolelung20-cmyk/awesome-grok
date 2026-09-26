@@ -1,0 +1,6 @@
+{
+  "name": "elevat-ops",
+  "version": "1.0.0",
+  "description": "Operating rules for Elevated Associates LLC agents: one tracker, one host, free tiers only, human-only money and legal actions.",
+  "author": { "name": "Elevated Associates LLC" }
+}
