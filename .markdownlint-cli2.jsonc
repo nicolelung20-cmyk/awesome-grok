@@ -1,0 +1,6 @@
+{
+  "config": {
+    // List entries are one link + description per line, so long lines are expected.
+    "MD013": false
+  }
+}

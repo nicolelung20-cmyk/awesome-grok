@@ -5,6 +5,7 @@ Curated resources for [Grok](https://x.ai/grok), [Grok Bot](https://x.ai/news/gr
 > 💡 **Maintained by [@milisp](https://github.com/milisp)** · **[Follow me on 𝕏](https://x.com/lisp_mi)** for agentic workflows, building in public
 
 ## Featured
+
 - [keke-agent](https://github.com/milisp/keke-agent) — Ultra-lightweight (7 MB) terminal coding agent written in Rust with Grok subscription login, directory routing, and non-interactive CI execution.
 
 ## Contents
