@@ -1,0 +1,11 @@
+{
+  "name": "elevat",
+  "owner": { "name": "Elevated Associates LLC" },
+  "plugins": [
+    {
+      "name": "elevat-ops",
+      "source": "./plugins/elevat-ops",
+      "description": "Operating rules for Elevated Associates LLC agents."
+    }
+  ]
+}
