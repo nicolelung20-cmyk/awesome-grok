@@ -1,0 +1,27 @@
+name: Links
+
+# Weekly and on demand only: many listed sites rate-limit or block CI runners,
+# so this should not gate pull requests.
+on:
+  schedule:
+    - cron: "17 9 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --accept '200..=299,403,429'
+            --exclude '^https?://(www\.)?(x|twitter)\.com'
+            --max-retries 3
+            --timeout 30
+            README.md
+          fail: true
