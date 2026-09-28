@@ -23,7 +23,19 @@ Read the "Current state" section of the Linear project **Elevat Growth & Release
 | Update Linear issues and the Current state section | Create accounts or enter payment details |
 | Production deploys only when she allows them | Final tax and legal decisions (with a CPA or attorney) |
 
-## 4. Working habits
+## 4. Financial goals (don't ask Nicole to restate these)
+| Goal | Target | Where it's tracked |
+|---|---|---|
+| First revenue | 5 paid $47 kits + 1 signed $2,500 sprint deposit by 2026-10-31 | ELE-11 under ELE-13 |
+| Revenue visibility | Every Stripe sale measurable end-to-end | ELE-8 |
+| Tax reserve | 25–30% of weekly net deposits to business tax savings (final % with a CPA) | ELE-30, ELE-32 |
+| Owner pay | Scheduled owner draw now; payroll/S-corp check when profit justifies it | ELE-36 |
+| Quarterly estimates | Apr 15, Jun 15, Sep 15, Jan 15 (confirm with a CPA); paid via IRS Direct Pay or EFTPS | ELE-32 |
+| Entity health | LLC Active, trust EIN and account in place | ELE-29, ELE-31 |
+
+**How it's automated:** money moves only through bank-native recurring transfers that Nicole sets up once (ELE-30), with no card and no agent access. Agents run the weekly finance check, a Routine named "Elevat weekly finance check" (Mondays 8:52am ET). It reads PocketSmith, QuickBooks and Linear read-only, compares them with the goals above, and updates the Current state section with progress, the next deadline and blockers. If a connector has no data or needs a re-login, say so in the check and don't guess numbers.
+
+## 5. Working habits
 - Before pushing, run the repo's checks: `npm run typecheck && npm run lint && npm test && npm run build`.
 - The Railway `earnest-adventure` and Vercel `elevat/psychiczebra-platform` statuses fail on every PR and are not caused by code. Say so once per PR; don't try to fix them.
 - Report plainly: what shipped, what's still blocked, and the single action each blocker needs from Nicole. Never call something "live" unless you checked it.
