@@ -1,7 +1,8 @@
 # Agent notes
 
 This repo is a curated Grok resource list. Most sessions started here work on
-Elevated Associates LLC, whose focus is now trading (stocks, options, crypto; paper first).
+Elevated Associates LLC and Nicole's trading. Trading runs personally (paper first);
+the LLC earns revenue, carries business expenses and funds retirement.
 
 Before starting that work, read the "Current state" section of the Linear
 project "Elevated Associates LLC — HQ" (P-ELE-5), the only active project. It

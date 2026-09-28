@@ -11,8 +11,9 @@ Read the "Current state" section of the Linear project **Elevated Associates LLC
 ## 2. Standing decisions
 - **One host:** Netlify's free plan, site `elevat-ai`. Don't add or revive Vercel, Railway or any other host. The leftover Vercel and Railway projects are slated for deletion by Nicole.
 - **Free tiers only.** No paid plans and no credit card anywhere.
-- **Focus: trading under Elevated Associates LLC** (stocks, options, crypto). One strategy at a time (ELE-39) on Alpaca paper (ELE-40). Robinhood can't hold LLC accounts, so Alpaca is the broker. The multi-bot swarm, sports-betting arb and token AMM are dropped.
-- **Paper to live gate (matches the supergrok CHARTER.md):** 90+ days and 30+ closed paper trades, positive after fees, max drawdown under 10%, kill-switch tested. Then Nicole opens and funds the LLC's live account with a capped amount. Agents never place live orders.
+- **Trading is personal, not in the LLC** (decided 2026-09-28): stocks, options and crypto in Nicole's own name. A single-member LLC adds no tax benefit for trading. One strategy at a time (ELE-39) on Alpaca paper (ELE-40); live later on a personal Alpaca or Robinhood account. The multi-bot swarm, sports-betting arb and token AMM are dropped.
+- **The LLC's job:** earn revenue (ELE-11/13), carry business expenses, and later fund a Solo 401(k) (ELE-41). Don't sell trading signals through it. Keep personal trading costs off it.
+- **Paper to live gate (matches the supergrok CHARTER.md):** 90+ days and 30+ closed paper trades, positive after fees, max drawdown under 10%, kill-switch tested. Then Nicole funds a personal live account with a capped amount. Agents never place live orders.
 - **Risk policy (enforced in code):** ≤5% per position, 3% daily loss halt, ≤5 positions, no leverage.
 - ELE-13 ($47 kit) and ELE-8 (revenue tracking) continue only as secondary work.
 - **Business admin** lives under ELE-28: LLC standing ELE-29, banking ELE-30, trust ELE-31, tax ELE-32, legal ELE-33, digital footprint ELE-34.
@@ -36,6 +37,7 @@ Read the "Current state" section of the Linear project **Elevated Associates LLC
 | Owner pay | Scheduled owner draw now; payroll/S-corp check when profit justifies it | ELE-36 |
 | Quarterly estimates | Apr 15, Jun 15, Sep 15, Jan 15 (confirm with a CPA); paid via IRS Direct Pay or EFTPS | ELE-32 |
 | Entity health | LLC Active, trust EIN and account in place | ELE-29, ELE-31 |
+| Use the LLC | Revenue into business checking, business expenses on the LLC, Solo 401(k) once profitable | ELE-41 |
 
 **How it's automated:** money moves only through bank-native recurring transfers that Nicole sets up once (ELE-30), with no card and no agent access. Agents run the weekly finance check, a Routine named "Elevat weekly finance check" (Mondays 8:52am ET). It reads PocketSmith, QuickBooks and Linear read-only, adds the paper-trading scorecard (expectancy, win rate, max drawdown) once ELE-40 is running, compares everything with the goals above, and updates the HQ Current state section with progress, the next deadline and blockers. If a connector has no data or needs a re-login, say so in the check and don't guess numbers.
 
