@@ -12,7 +12,7 @@ Read the "Current state" section of the Linear project **Elevated Associates LLC
 - **One host:** Netlify's free plan, site `elevat-ai`. Don't add or revive Vercel, Railway or any other host. The leftover Vercel and Railway projects are slated for deletion by Nicole.
 - **Free tiers only.** No paid plans and no credit card anywhere.
 - **Focus: trading under Elevated Associates LLC** (stocks, options, crypto). One strategy at a time (ELE-39) on Alpaca paper (ELE-40). Robinhood can't hold LLC accounts, so Alpaca is the broker. The multi-bot swarm, sports-betting arb and token AMM are dropped.
-- **Paper to live gate:** 30+ closed paper trades over 30+ days, positive after fees, max drawdown under 10%, kill-switch tested. Then Nicole opens and funds the LLC's live account with a capped amount. Agents never place live orders.
+- **Paper to live gate (matches the supergrok CHARTER.md):** 90+ days and 30+ closed paper trades, positive after fees, max drawdown under 10%, kill-switch tested. Then Nicole opens and funds the LLC's live account with a capped amount. Agents never place live orders.
 - **Risk policy (enforced in code):** ≤5% per position, 3% daily loss halt, ≤5 positions, no leverage.
 - ELE-13 ($47 kit) and ELE-8 (revenue tracking) continue only as secondary work.
 - **Business admin** lives under ELE-28: LLC standing ELE-29, banking ELE-30, trust ELE-31, tax ELE-32, legal ELE-33, digital footprint ELE-34.
