@@ -9,7 +9,7 @@ description: Use at the start of any work on the Elevat / Elevated Associates LL
 Read the "Current state" section of the Linear project **Elevated Associates LLC — HQ** (P-ELE-5) before doing anything. It is the only active project; Growth & Release OS, Revenue OS, RAFF and SparkList are frozen. Current state lists the focus, open PRs and their owning sessions, and what not to touch. When several sessions run in parallel, each one updates that same section and nowhere else. When you finish, update that section rather than creating a new tracker, doc or dashboard.
 
 ## 2. Standing decisions
-- **One host:** Netlify's free plan, site `elevat-ai`. Don't add or revive Vercel, Railway or any other host. The leftover Vercel and Railway projects are slated for deletion by Nicole.
+- **One host:** Netlify's free plan, site `elevat-ai`. Don't add or revive Vercel, Railway or any other host. The leftover Vercel and Railway projects are slated for deletion by Nicole. **One exception (decided 2026-09-29):** Elevat Pro stays on Floot's free plan at eai-workspace.floot.app (checkout is a Stripe Payment Link, $29/month). Don't migrate it.
 - **Free tiers only.** No paid plans and no credit card anywhere.
 - **Trading is personal, not in the LLC** (decided 2026-09-28): stocks, options and crypto in Nicole's own name. A single-member LLC adds no tax benefit for trading. One strategy at a time (ELE-39) on Alpaca paper (ELE-40); live later on a personal Alpaca or Robinhood account. The multi-bot swarm, sports-betting arb and token AMM are dropped.
 - **The LLC's job:** earn revenue (ELE-11/13), carry business expenses, and later fund a Solo 401(k) (ELE-41). Don't sell trading signals through it. Keep personal trading costs off it.
@@ -39,10 +39,25 @@ Read the "Current state" section of the Linear project **Elevated Associates LLC
 | Entity health | LLC Active, trust EIN and account in place | ELE-29, ELE-31 |
 | Use the LLC | Revenue into business checking, business expenses on the LLC, Solo 401(k) once profitable | ELE-41 |
 
-**How it's automated:** money moves only through bank-native recurring transfers that Nicole sets up once (ELE-30), with no card and no agent access. Agents run the weekly finance check, a Routine named "Elevat weekly finance check" (Mondays 8:52am ET). It reads PocketSmith, QuickBooks and Linear read-only, adds the paper-trading scorecard (expectancy, win rate, max drawdown) once ELE-40 is running, compares everything with the goals above, and updates the HQ Current state section with progress, the next deadline and blockers. If a connector has no data or needs a re-login, say so in the check and don't guess numbers.
+**How it's automated:** money moves only through bank-native recurring transfers that Nicole sets up once (ELE-30), with no card and no agent access. Nicole deleted all Routines on 2026-09-29, then asked for two back: the daily finance check ("Elevat daily finance check", 8:52am ET, read-only) and Elevat Pro activation (hourly, Stripe read-only). Neither holds connectors yet, so each run only reports "add connectors" until Nicole adds them on claude.ai/code/routines. Create no other Routines unless she asks. When asked for a finance check, read PocketSmith, QuickBooks and Linear read-only, add the paper-trading scorecard (expectancy, win rate, max drawdown) once ELE-40 is running, compare everything with the goals above, and update the HQ Current state section with progress, the next deadline and blockers. If a connector has no data or needs a re-login, say so and don't guess numbers. Don't create Routines unless she asks.
 
 ## 5. Working habits
 - Before pushing, run the repo's checks: `npm run typecheck && npm run lint && npm test && npm run build`.
 - The Railway `earnest-adventure` and Vercel `elevat/psychiczebra-platform` statuses fail on every PR and are not caused by code. Say so once per PR; don't try to fix them.
 - Report plainly: what shipped, what's still blocked, and the single action each blocker needs from Nicole. Never call something "live" unless you checked it.
 - Documents go in Google Drive under `Elevated Associates/{Formation, Tax, Banking, Trust, Contracts}`.
+
+## 6. How Nicole works (applies to every model and tool)
+- **Never make Nicole repeat herself.** Read this skill, the Linear Current state and the repo docs before asking anything; ask only what they don't answer.
+- **Use every relevant connected tool and connector, always.** Before answering, use each read-only, paper or draft tool that bears on the task (for example PocketSmith, QuickBooks, Stripe, Linear, Alpaca paper, market-data and web-research connectors). Say which you used and which were unavailable or need a re-login.
+- **Always surface the best opportunities, proven methods only.** End every scan or report with a ranked list of the best opportunities found (revenue, fees, idle cash, yield, leads). Include only methods with documented, tested track records (for example, cutting fees, using tax-advantaged accounts once a CPA confirms, low-cost diversified holdings). For each: evidence and source, expected range, cost, risk, and the single action needed. Anything speculative or untested goes in a separate "unproven, paper only" list and is never recommended for real money. Mark anything unchecked as "unverified". Never promise or imply guaranteed returns.
+- **A licensed professional decides.** Models inform and prepare; they are not financial advisors. Tax, retirement, investment and legal decisions go to a fee-only fiduciary advisor, a CPA and an attorney (see `docs/advisor-handoff.md`). Never present model output as personal financial advice.
+- **"All tools" stops at tier T2** (see `docs/alpha-finance-os.md`): live orders, money movement, account changes, key changes and merging to `main` stay with Nicole.
+
+## 7. Entity facts (from the filed documents; no tax ID recorded here)
+- Elevated Associates, LLC: Ohio for-profit LLC, effective 2021-11-19 (state certificate 2021-11-22), Ohio Secretary of State entity number 4777661.
+- Member-managed, sole member Nicole C. Lung; disregarded entity for federal tax (Declaration in Lieu of Operating Agreement).
+- Statutory agent: CFD Service Company, Inc., Cleveland (a paid agent; check its fee against the free-tier rule).
+- Unverified: the file names suggest an Ohio trade-name registration for "Elevated Cosmetics" from Nov 2021. Ohio trade names normally last five years, so a renewal may be due around Nov 2026. Confirm on the Ohio Secretary of State site.
+- Formation documents sit in a Drive folder owned by another account. Keep copies in Nicole's own Drive (`Elevated Associates/Formation`).
+- Use the `cpa-prep` and `legal-prep` agents to prepare questions and packets for the real CPA and attorney; they do not replace them.
