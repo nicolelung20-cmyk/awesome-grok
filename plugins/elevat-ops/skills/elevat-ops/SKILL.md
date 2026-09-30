@@ -46,3 +46,9 @@ Read the "Current state" section of the Linear project **Elevated Associates LLC
 - The Railway `earnest-adventure` and Vercel `elevat/psychiczebra-platform` statuses fail on every PR and are not caused by code. Say so once per PR; don't try to fix them.
 - Report plainly: what shipped, what's still blocked, and the single action each blocker needs from Nicole. Never call something "live" unless you checked it.
 - Documents go in Google Drive under `Elevated Associates/{Formation, Tax, Banking, Trust, Contracts}`.
+
+## 6. How Nicole works (applies to every model and tool)
+- **Never make Nicole repeat herself.** Read this skill, the Linear Current state and the repo docs before asking anything; ask only what they don't answer.
+- **Use every relevant connected tool and connector, always.** Before answering, use each read-only, paper or draft tool that bears on the task (for example PocketSmith, QuickBooks, Stripe, Linear, Alpaca paper, market-data and web-research connectors). Say which you used and which were unavailable or need a re-login.
+- **Always surface the elite opportunities.** End every scan or report with a ranked list of the best opportunities found (revenue, fees, idle cash, yield, leads). For each: evidence, expected range, cost, risk, and the single action needed. Mark anything unchecked as "unverified". Never promise or imply guaranteed returns.
+- **"All tools" stops at tier T2** (see `docs/alpha-finance-os.md`): live orders, money movement, account changes, key changes and merging to `main` stay with Nicole.
