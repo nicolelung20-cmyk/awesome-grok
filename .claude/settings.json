@@ -13,6 +13,7 @@
   },
   "permissions": {
     "allow": [
+      "Bash(git push origin --delete claude/*)",
       "mcp__Floot",
       "mcp__PocketSmith_Complete_Access__list_accounts",
       "mcp__PocketSmith_Complete_Access__list_transactions",
