@@ -1,18 +1,19 @@
 """Read-only finance agent prototype (Alpha Finance OS, tier T0).
 
-Uses the OpenAI Agents SDK against OpenRouter's OpenAI-compatible endpoint with a
-free model, so no paid key is needed. It can only read a local JSON snapshot; it
-has no tool that moves money, places orders or writes outside the ledger.
+Uses the OpenAI Agents SDK against OpenRouter's OpenAI-compatible endpoint
+(default model anthropic/claude-opus-latest; override with ORI_MODEL). It can only
+read a local JSON snapshot; it has no tool that moves money, places orders or writes outside the ledger.
 
     python agent.py --dry-run                # no network, exercises tool + ledger + kill switch
-    OPENROUTER_API_KEY=... python agent.py   # free-tier key from openrouter.ai
+    OPENROUTER_API_KEY=... python agent.py   # key from openrouter.ai
 """
 import argparse, json, os, sys, time
 from pathlib import Path
 
 HERE = Path(__file__).parent
 LEDGER = HERE / "ledger.jsonl"
-MODEL = os.environ.get("ORI_MODEL", "meta-llama/llama-3.3-70b-instruct:free")
+BASE_URL = "https://openrouter.ai/api/v1"
+MODEL = os.environ.get("ORI_MODEL", "anthropic/claude-opus-latest")
 
 
 def killed() -> bool:
@@ -49,14 +50,14 @@ def run_agent() -> int:
         return 1
     key = os.environ.get("OPENROUTER_API_KEY")
     if not key:
-        print("set OPENROUTER_API_KEY (free key from openrouter.ai), or use --dry-run")
+        print("set OPENROUTER_API_KEY (from openrouter.ai), or use --dry-run")
         return 2
     from openai import AsyncOpenAI
     from agents import Agent, OpenAIChatCompletionsModel, Runner, function_tool, set_tracing_disabled
     import asyncio
 
     set_tracing_disabled(True)
-    client = AsyncOpenAI(base_url="https://openrouter.ai/api/v1", api_key=key)
+    client = AsyncOpenAI(base_url=BASE_URL, api_key=key)
     agent = Agent(
         name="finance-reader",
         instructions=("You report on the account snapshot. Read-only. Quote numbers exactly as "
