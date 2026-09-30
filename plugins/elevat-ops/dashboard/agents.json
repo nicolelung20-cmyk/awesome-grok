@@ -1,0 +1,5 @@
+{
+  "agents": [
+    {"name": "finance-reader", "tier": "T0", "role": "Reads the account snapshot and reports cash and revenue", "entry": "../prototype/agent.py"}
+  ]
+}
