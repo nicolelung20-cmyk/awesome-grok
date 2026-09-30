@@ -9,7 +9,7 @@ description: Use at the start of any work on the Elevat / Elevated Associates LL
 Read the "Current state" section of the Linear project **Elevated Associates LLC — HQ** (P-ELE-5) before doing anything. It is the only active project; Growth & Release OS, Revenue OS, RAFF and SparkList are frozen. Current state lists the focus, open PRs and their owning sessions, and what not to touch. When several sessions run in parallel, each one updates that same section and nowhere else. When you finish, update that section rather than creating a new tracker, doc or dashboard.
 
 ## 2. Standing decisions
-- **One host:** Netlify's free plan, site `elevat-ai`. Don't add or revive Vercel, Railway or any other host. The leftover Vercel and Railway projects are slated for deletion by Nicole.
+- **One host:** Netlify's free plan, site `elevat-ai`. Don't add or revive Vercel, Railway or any other host. The leftover Vercel and Railway projects are slated for deletion by Nicole. **One exception (decided 2026-09-29):** Elevat Pro stays on Floot's free plan at eai-workspace.floot.app (checkout is a Stripe Payment Link, $29/month). Don't migrate it.
 - **Free tiers only.** No paid plans and no credit card anywhere.
 - **Trading is personal, not in the LLC** (decided 2026-09-28): stocks, options and crypto in Nicole's own name. A single-member LLC adds no tax benefit for trading. One strategy at a time (ELE-39) on Alpaca paper (ELE-40); live later on a personal Alpaca or Robinhood account. The multi-bot swarm, sports-betting arb and token AMM are dropped.
 - **The LLC's job:** earn revenue (ELE-11/13), carry business expenses, and later fund a Solo 401(k) (ELE-41). Don't sell trading signals through it. Keep personal trading costs off it.
@@ -39,7 +39,7 @@ Read the "Current state" section of the Linear project **Elevated Associates LLC
 | Entity health | LLC Active, trust EIN and account in place | ELE-29, ELE-31 |
 | Use the LLC | Revenue into business checking, business expenses on the LLC, Solo 401(k) once profitable | ELE-41 |
 
-**How it's automated:** money moves only through bank-native recurring transfers that Nicole sets up once (ELE-30), with no card and no agent access. Agents run the weekly finance check, a Routine named "Elevat weekly finance check" (Mondays 8:52am ET). It reads PocketSmith, QuickBooks and Linear read-only, adds the paper-trading scorecard (expectancy, win rate, max drawdown) once ELE-40 is running, compares everything with the goals above, and updates the HQ Current state section with progress, the next deadline and blockers. If a connector has no data or needs a re-login, say so in the check and don't guess numbers.
+**How it's automated:** money moves only through bank-native recurring transfers that Nicole sets up once (ELE-30), with no card and no agent access. Nicole deleted all Routines on 2026-09-29, so nothing runs on a schedule: the finance check, Elevat Pro activation and PR follow-ups are manual until she asks for new ones. When asked for a finance check, read PocketSmith, QuickBooks and Linear read-only, add the paper-trading scorecard (expectancy, win rate, max drawdown) once ELE-40 is running, compare everything with the goals above, and update the HQ Current state section with progress, the next deadline and blockers. If a connector has no data or needs a re-login, say so and don't guess numbers. Don't create Routines unless she asks.
 
 ## 5. Working habits
 - Before pushing, run the repo's checks: `npm run typecheck && npm run lint && npm test && npm run build`.
