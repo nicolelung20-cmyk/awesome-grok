@@ -10,5 +10,21 @@
         ]
       }
     ]
+  },
+  "permissions": {
+    "allow": [
+      "mcp__Floot",
+      "mcp__PocketSmith_Complete_Access__list_accounts",
+      "mcp__PocketSmith_Complete_Access__list_transactions",
+      "mcp__PocketSmith_Complete_Access__get_budget_summary",
+      "mcp__PocketSmith_Complete_Access__cash_flow_forecast",
+      "mcp__Intuit_QuickBooks__profit_loss_quickbooks_account",
+      "mcp__Intuit_QuickBooks__qbo_accounting_get_balance_sheet",
+      "mcp__Intuit_QuickBooks__qbo_accounting_get_ar_aging_summary",
+      "mcp__Linear__get_project",
+      "mcp__Linear__list_issues",
+      "mcp__Stripe__get_balance_summary",
+      "mcp__Stripe__stripe_api_read"
+    ]
   }
 }
